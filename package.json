@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "@vercel/speed-insights": "^1.0.12",
+    "vue": "^3.2.45",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

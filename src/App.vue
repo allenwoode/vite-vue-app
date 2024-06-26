@@ -1,20 +1,15 @@
 <script setup>
 import { SpeedInsights } from "@vercel/speed-insights/vue"
 
-import ChitChat from './components/ChitChat.vue';
+//import ChitChat from './components/ChitChat.vue';
 //import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div class="mt-2 space-y-2">
-    <ChitChat />
-    <ChitChat />
-    <ChitChat />
-    <ChitChat />
-    <ChitChat />
-    <ChitChat />
+
+    <routerView />
     <SpeedInsights />
-  </div>
+  
 </template>
 
 <style scoped>

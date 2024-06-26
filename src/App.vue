@@ -1,6 +1,4 @@
 <script setup>
-import { SpeedInsights } from "@vercel/speed-insights/vue"
-
 //import ChitChat from './components/ChitChat.vue';
 //import HelloWorld from './components/HelloWorld.vue'
 </script>
@@ -8,7 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/vue"
 <template>
 
     <routerView />
-    <SpeedInsights />
+    
   
 </template>
 

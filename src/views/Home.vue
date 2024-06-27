@@ -7,7 +7,5 @@ import ChitChat from '../components/ChitChat.vue'
 <template>
     <div class="space-y-2">
         <ChitChat />
-        <ChitChat />
-        <ChitChat />
     </div>
 </template>

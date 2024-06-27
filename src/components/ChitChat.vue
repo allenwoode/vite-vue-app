@@ -1,5 +1,5 @@
 <script setup>
-
+import {store} from './store.js'
 </script>
 
 <template>
@@ -11,6 +11,7 @@
   <div>
     <div class="text-xl font-medium text-black">ChitChat</div>
     <p class="text-slate-500">You have a new message!</p>
+    <button @click="store.increment">{{ store.count }}</button>
   </div>
 </div>
 

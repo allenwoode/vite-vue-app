@@ -1,7 +1,7 @@
 <script setup>
 import ChitChat from '../components/ChitChat.vue'
 
-import { SpeedInsights } from "@vercel/speed-insights/vue"
+//import { SpeedInsights } from "@vercel/speed-insights/vue"
 </script>
 
 <template>
@@ -9,7 +9,5 @@ import { SpeedInsights } from "@vercel/speed-insights/vue"
         <ChitChat />
         <ChitChat />
         <ChitChat />
-
-        <SpeedInsights />
     </div>
 </template>
